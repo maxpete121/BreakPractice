@@ -13,21 +13,30 @@
 
 <body>
 
-    <header>
-        <i></i>
-        <h2 class="sticky-top">Welcome To The Test Site</h2>
+    <header class="d-flex justify-content-between align-items-center sticky-top">
+        <div class="d-flex align-items-center">
+            <i class="mdi mdi-desktop-tower-monitor me-2"></i>
+            <h3 class="">Welcome To The Test Site</h3>
+        </div>
+        <div class="d-flex">
+            <h6 class="ms-4 Menu">Starter Builds</h6>
+            <h6 class="ms-4 Menu">Novice Builds</h6>
+            <h6 class="ms-4 Menu">Expert Builds</h6>
+            <h6 class="ms-4 Menu" >Contact Us</h6>
+        </div>
+
 
     </header>
 
     <main class="container-fluid">
-        <section class="row justify-content-center Lteal p-4">
+        <section class="row justify-content-center Dblue p-4">
             <div class="col-3 cardOne text-center">
                 <h3>PC Starter</h3>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY6dgkbNvWxKY8-q1RQhxDukZJj2phfxQLGw&usqp=CAU"
                     alt="PC Starter">
                 <h5>Specs</h5>
                 <p>CPU: i5-1300k</p>
-                <p>ram: 16GB Ram</p>
+                <p>RAM: 16GB Ram</p>
                 <p>GPU: Geforce GTX 3060</p>
                 <p></p>
             </div>
@@ -36,9 +45,9 @@
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY6dgkbNvWxKY8-q1RQhxDukZJj2phfxQLGw&usqp=CAU"
                     alt="PC Novice">
                 <h5>Specs</h5>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p>CPU: i7-1100k</p>
+                <p>RAM: 32GB</p>
+                <p>GPU: Geforce GTX 3070ti</p>
                 <p></p>
             </div>
             <div class="col-3 cardOne text-center">
@@ -46,37 +55,65 @@
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY6dgkbNvWxKY8-q1RQhxDukZJj2phfxQLGw&usqp=CAU"
                     alt="PC Expert">
                 <h5>Specs</h5>
-                <p></p>
-                <p></p>
-                <p></p>
+                <p>CPU: i9-1300K</p>
+                <p>RAM: 64GB</p>
+                <p>GPU: Geforce GTX 3090</p>
                 <p></p>
             </div>
         </section>
 
-        <section class="row p-4 justify-content-center">
-            <div class="m-1 col-2 p-2 cardTwo text-center">
+        <section class="row p-4 justify-content-center bg-black">
+            <div class="m-2 col-2 cardTwo text-center">
                 <i class="mdi mdi-phone"></i>
                 <h4>Contact Us!</h4>
                 <p>We are always happy to help with your pc issues!</p>
                 <button>Contact</button>
             </div>
-            <div class="m-1 col-2 p-2 cardTwo text-center">
+            <div class="m-2 col-2 cardTwo text-center">
                 <i class="mdi mdi-trophy"></i>
                 <h4>Our Awards</h4>
                 <p>We have won multiple awards for the best service in Boise!</p>
                 <button>Awards</button>
             </div>
-            <div class="m-1 col-2 p-2 cardTwo text-center">
+            <div class="m-2 col-2 cardTwo text-center">
                 <i class="mdi mdi-calendar-month"></i>
                 <h4>Events</h4>
-                <p>There are multiple gaming and dev events we host! Feel free to join!</p>
+                <p>There are multiple gaming and dev events we host!</p>
                 <button>Events</button>
             </div>
-            <div class="m-1 col-2 p-2 cardTwo text-center">
+            <div class="m-2 col-2 cardTwo text-center">
                 <i class="mdi mdi-information"></i>
-                <h4>Need More Info?</h4>
+                <h3>Need More Info?</h3>
                 <p>Click here to learn more about what we do.</p>
                 <button>Info</button>
+            </div>
+        </section>
+
+        <section class="row bg-black">
+            <div class="col-4 ms-md-5 mt-5 mb-5 Dblue text-light p-4">
+                <h3>Special Builds</h3>
+                <p>We have specialized gaming builds for those who can't satisfy that need for more FPS.</p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="cardThree col-4 d-flex">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTic7_M5-gjH0yav6zPcMJl2WglaB14H7JVEw&usqp=CAU" alt="PC1">
+                    <span class="text-light">
+                        <h5>The King</h5>
+                        <h6>Specs</h6>
+                    </span>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTic7_M5-gjH0yav6zPcMJl2WglaB14H7JVEw&usqp=CAU" alt="PC1">
+                    <span class="text-light">
+                        <h5>The King</h5>
+                        <h6>Specs</h6>
+                </div>
+                <div class="cardFive col-4 d-flex">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTic7_M5-gjH0yav6zPcMJl2WglaB14H7JVEw&usqp=CAU" alt="PC1">
+                    <span class="text-light">
+                        <h5>The King</h5>
+                        <h6>Specs</h6>
+                </div>
             </div>
         </section>
 

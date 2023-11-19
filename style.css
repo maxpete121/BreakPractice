@@ -10,9 +10,16 @@
 }
 
 header{
-    padding: 10px;
+    padding: 15px;
     color: white;
-    background-color: #071E33;
+    background-color: black;
+    border-bottom: 2px;
+    border: white;
+}
+
+.Menu:hover {
+    font-style: italic;
+    font-weight: bold;
 }
 
 .cardOne{
@@ -28,5 +35,41 @@ header{
     background-color: #071E33;
     color: white;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
 }
+
+.cardThree {
+    background-color: #1D7874;
+    color: white;
+    border-radius: 15px
+}
+
+.cardFour {
+    background-color: #1D7874;
+    color: white;
+    border-radius: 15px
+}
+
+.cardFive {
+    background-color: #1D7874;
+    color: white;
+    border-radius: 15px
+}
+
+@media (min-width: 768px) {
+    .cardThree {
+        background-color: #1D7874;
+        color: white;
+        border-radius: 15px;
+        position: absolute;
+        bottom: -200px; 
+    }
+    .cardFive {
+        background-color: #679289;
+        color: white;
+        border-radius: 15px;
+        bottom: -380px;
+        position: absolute;
+    }
+}   
+
