@@ -41,19 +41,50 @@ header{
 .cardThree {
     background-color: #1D7874;
     color: white;
-    border-radius: 15px
+    border-radius: 15px;
 }
 
 .cardFour {
     background-color: #1D7874;
     color: white;
-    border-radius: 15px
+    border-radius: 15px;
 }
 
 .cardFive {
     background-color: #1D7874;
     color: white;
-    border-radius: 15px
+    border-radius: 15px;
+}
+
+.Image {
+    height: 90px;
+    width: 200px;
+}
+
+.arrow {
+    height: 40px;
+    width: 40px;
+}
+
+.theKing {
+    background-color: rgb(90, 1, 1);
+    display: inline;
+    color: white;
+    border-radius: 15px;
+}
+
+.theQueen {
+    background-color: rgb(124, 0, 0);
+    display: inline;
+    color: white;
+    border-radius: 15px;
+}
+
+.theEmporor {
+    background-color: rgb(44, 0, 0);
+    display: inline;
+    color: white;
+    border-radius: 15px;
 }
 
 @media (min-width: 768px) {
@@ -62,13 +93,20 @@ header{
         color: white;
         border-radius: 15px;
         position: absolute;
-        bottom: -200px; 
+        bottom: -320px; 
+    }
+    .cardFour {
+        background-color: #125754;
+        color: white;
+        border-radius: 15px;
+        bottom: -210px;
+        position: absolute;
     }
     .cardFive {
         background-color: #679289;
         color: white;
         border-radius: 15px;
-        bottom: -380px;
+        bottom: -430px;
         position: absolute;
     }
 }   
