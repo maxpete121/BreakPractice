@@ -9,6 +9,13 @@
     background-color: #679289;
 }
 
+@media(max-width:768px) {
+    .PC {
+        height: 150px;
+        width: 300px;
+    }
+}
+
 header{
     padding: 15px;
     color: white;
