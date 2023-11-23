@@ -34,3 +34,13 @@ function theEmperor() {
     }
 
 }
+
+function partOne() {
+    document.getElementById("part-start").style.display = "none";
+    let partShow = document.getElementById("part-one");
+    if(partShow = "part-one") {
+        document.getElementById("part-one").style.display = "block";
+    }
+
+    
+}

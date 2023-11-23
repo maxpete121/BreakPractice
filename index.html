@@ -62,6 +62,28 @@
             </div>
         </section>
 
+        <section class="row justify-content-center pt-5 pb-3">
+            <div class="col-4 bg-dark-subtle border rounded-2 p-2">
+                <h3>Upgrade your gaming ability!</h3>
+                <p>We offer hundreds of parts to upgrade your existing PC along with extensive guides to help you install them! Select an upgrade to learn more!</p>
+                <select name="form-select" id="upgrade-form">
+                    <option disabled selected>Select an upgrade</option>
+                    <option onchange="partOne()">CPU</option>
+                    <option value="2">GPU</option>
+                    <option value="3">RAM</option>
+                    <option value="4">STORAGE</option>
+                </select>
+            </div>
+            <div id="part-start" class="col-4 text-center">
+                <img class="selectedPart" src="https://support.musicgateway.com/wp-content/uploads/2021/08/how-to-make-a-gaming-setup-16.png" alt="SetUp Pic">
+                <button class="mt-1">View Upgrades</button>
+            </div>
+            <div id="part-one" style="display: none;" class="col-4 text-center">
+                <img class="selectedPart" src="" alt="Part CPU">
+                <button class="mt-1">View CPUs</button>
+            </div>
+        </section>
+
         <section class="row p-4 justify-content-center bg-black">
             <div class="m-2 col-md-2 col-8 cardTwo text-center">
                 <i class="mdi mdi-phone"></i>

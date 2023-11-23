@@ -38,6 +38,15 @@ header{
     padding: 10px;
 }
 
+.selectedPart {
+    max-width: 400px;
+    max-height: 250px;
+}
+
+.displayToggle {
+    display: none;
+}
+
 .cardTwo {
     background-color: #071E33;
     color: white;
@@ -100,20 +109,20 @@ header{
         color: white;
         border-radius: 15px;
         position: absolute;
-        bottom: -320px; 
+        bottom: -570px; 
     }
     .cardFour {
         background-color: #125754;
         color: white;
         border-radius: 15px;
-        bottom: -210px;
+        bottom: -460px;
         position: absolute;
     }
     .cardFive {
         background-color: #679289;
         color: white;
         border-radius: 15px;
-        bottom: -430px;
+        bottom: -680px;
         position: absolute;
     }
 }   
